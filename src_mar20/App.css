@@ -1,0 +1,80 @@
+*{box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color:    rgb(20, 20, 20);}
+
+
+.App {
+  text-align: center;
+}
+
+.input_style{
+  background-color: #797474;
+  color: rgb(240, 230, 230);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+.heading_input{
+  padding: 30px 0;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 10px;
+  font-weight: 600;
+  color: #e30909;
+  background-color: #010000;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+
+.heading_style{
+  padding: 30px 0;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 10px;
+  font-weight: 600;
+  color: #e30909;
+  background-color: #010000;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
